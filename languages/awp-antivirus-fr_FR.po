@@ -1,0 +1,271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AWP Antivirus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Jun 27 2016 14:13:51 GMT+0200\n"
+"PO-Revision-Date: Fri Jul 08 2016 10:26:57 GMT+0200\n"
+"Last-Translator: Fabien <fabien@cws.agency>\n"
+"Language-Team: \n"
+"Language: French (France)\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: fr_FR"
+
+#: ../inc/AWPAntivirus.class.php:25
+msgid "4€ /month"
+msgstr "4€ /mois"
+
+#. Name of the plugin
+msgid "AWP Antivirus"
+msgstr "AWP Antivirus"
+
+#. URI of the plugin
+msgid "http://www.awp-antivirus.com"
+msgstr "http://www.awp-antivirus.com"
+
+#. Description of the plugin
+msgid "Antivirus Wordpress that protects your website"
+msgstr "Antivirus qui protège votre site web"
+
+#. Author of the plugin
+msgid "CWS Agency"
+msgstr "CWS Agency"
+
+#. Author URI of the plugin
+msgid "http://cws.agency"
+msgstr "http://cws.agency"
+
+#: ../inc/hooks.php:87
+msgid ""
+"You are currently using a trial version of AWP Antivirus. Corrupted files "
+"won't be automatically corrected."
+msgstr ""
+"Vous utilisez actuellement la version d'essai de AWP Antivirus. Les fichiers "
+"corrompus ne seront pas corrigés automatiquement."
+
+#: ../inc/hooks.php:88 ../inc/AWPAntivirus.class.php:169 ../inc/AWPAntivirus.
+#: class.php:252 ../inc/AWPAntivirus.class.php:257 ../inc/AWPAntivirus.class.php:
+#: 364 ../inc/AWPAntivirus.class.php:364
+msgid "Upgrade"
+msgstr "Mettre à niveau"
+
+#: ../inc/hooks.php:88
+msgid "Type in your API key"
+msgstr "Saisissez votre clé API"
+
+#: ../inc/hooks.php:148
+msgid "Your IP has been locked for too many attempts failed."
+msgstr ""
+"Votre IP a été verrouillée à cause d'un trop grand nombre d'échec de "
+"connexion."
+
+#: ../inc/AWPAntivirus.class.php:156
+msgid "Status"
+msgstr "Etat"
+
+#: ../inc/AWPAntivirus.class.php:162
+msgid "Your website is protected"
+msgstr "Votre site est protégé"
+
+#: ../inc/AWPAntivirus.class.php:162
+msgid "You have a valid licence key for this antivirus until"
+msgstr "Vous disposez d'une clé d'API valide pour cet antivirus jusqu'au"
+
+#: ../inc/AWPAntivirus.class.php:162
+msgid "Relax"
+msgstr "Détendez-vous"
+
+#: ../inc/AWPAntivirus.class.php:169
+msgid "Your website is not protected"
+msgstr "Votre site web n'est pas protégé."
+
+#: ../inc/AWPAntivirus.class.php:169
+msgid "You are currently using the trial version of this antivirus."
+msgstr "Vous utilisez actuellement la version d'essai de cet antivirus."
+
+#: ../inc/AWPAntivirus.class.php:184
+msgid "Services"
+msgstr "Services"
+
+#: ../inc/AWPAntivirus.class.php:187 ../inc/AWPAntivirus.class.php:190 ..
+#: inc/AWPAntivirus.class.php:196 ../inc/AWPAntivirus.class.php:199 ..
+#: inc/AWPAntivirus.class.php:204 ../inc/AWPAntivirus.class.php:207
+msgid "Stop"
+msgstr "Arrêter"
+
+#: ../inc/AWPAntivirus.class.php:187 ../inc/AWPAntivirus.class.php:190 ..
+#: inc/AWPAntivirus.class.php:196 ../inc/AWPAntivirus.class.php:199 ..
+#: inc/AWPAntivirus.class.php:204 ../inc/AWPAntivirus.class.php:207
+msgid "Activate"
+msgstr "Activer"
+
+#: ../inc/AWPAntivirus.class.php:187
+msgid "Automatic scan : Scans your website up to 4 times a day."
+msgstr "Scan automatique : votre site est scanné jusqu'à 4 fois par jour."
+
+#: ../inc/AWPAntivirus.class.php:190
+msgid "Automatic cleanning : Remove malware code when it is found."
+msgstr "Nettoyage automatique : Le code malveillant est supprimé quand il est trouvé."
+
+#: ../inc/AWPAntivirus.class.php:196
+msgid "Firewall : Prevent most of the attacks."
+msgstr "Pare-feu : Empêche la plupart des attaques."
+
+#: ../inc/AWPAntivirus.class.php:199
+msgid "Media upload validation : Checks every uploaded media."
+msgstr "Validation des médias : les médias sont vérifiés quand ils sont téléchargés."
+
+#: ../inc/AWPAntivirus.class.php:204
+msgid "Fail2ban : Bans IP addresses after several login attempts failed."
+msgstr "Fail2ban : Vérouille les adresses IP après plusieurs échecs de connexion."
+
+#: ../inc/AWPAntivirus.class.php:207
+msgid "Auto update : Updates WP, plugins and themes."
+msgstr "Mise à jour auto : Met à jour WP, les plugins et les thèmes."
+
+#: ../inc/AWPAntivirus.class.php:217
+msgid "San the website now"
+msgstr "Scannez le site web"
+
+#: ../inc/AWPAntivirus.class.php:219
+msgid ""
+"Perform a manual scan now. All the corrupted files will be either corrected "
+"or deleted (if you have a valid licence key)."
+msgstr ""
+"Faire un scan manuel maintenant. Tous les fichiers corrompus seront soit "
+"corrigés ou supprimés (si vous disposez d'une clé d'API valide)."
+
+#: ../inc/AWPAntivirus.class.php:220
+msgid "Scan now"
+msgstr "Scanner"
+
+#: ../inc/AWPAntivirus.class.php:235
+msgid "Scanning, please wait"
+msgstr "Scan en cours, veuillez patienter"
+
+#: ../inc/AWPAntivirus.class.php:249
+msgid "Your licence key"
+msgstr "Votre clé d'API"
+
+#: ../inc/AWPAntivirus.class.php:252
+msgid "You are currently using the trial version, you can"
+msgstr "Vous utilisez actuellement la version d'essai, vous pouvez"
+
+#: ../inc/AWPAntivirus.class.php:252
+msgid "and type in your key"
+msgstr "et saisir votre clé"
+
+#: ../inc/AWPAntivirus.class.php:253
+msgid "Vous are currently using the full version."
+msgstr "Vous utilisez actuellement la version complète."
+
+#: ../inc/AWPAntivirus.class.php:254
+msgid "Licence key"
+msgstr "Clé d'API"
+
+#: ../inc/AWPAntivirus.class.php:256
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../inc/AWPAntivirus.class.php:257
+msgid "or"
+msgstr "ou"
+
+#: ../inc/AWPAntivirus.class.php:263
+msgid "Banned IP"
+msgstr "IP Verrouillées"
+
+#: ../inc/AWPAntivirus.class.php:266
+msgid "IP to lock"
+msgstr "IP à verrouiller"
+
+#: ../inc/AWPAntivirus.class.php:268
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../inc/AWPAntivirus.class.php:273
+msgid "No IP was banned so far"
+msgstr "Aucune IP verrouillée pour le moment"
+
+#: ../inc/AWPAntivirus.class.php:280
+msgid "until"
+msgstr "jusqu'au"
+
+#: ../inc/AWPAntivirus.class.php:280
+msgid "unlock"
+msgstr "déverrouiller"
+
+#: ../inc/AWPAntivirus.class.php:347
+msgid "Result of the latest scan"
+msgstr "Résultats du dernier scan"
+
+#: ../inc/AWPAntivirus.class.php:348
+msgid "Done on"
+msgstr "Fait le"
+
+#: ../inc/AWPAntivirus.class.php:348
+msgid "at"
+msgstr "à"
+
+#: ../inc/AWPAntivirus.class.php:350
+msgid "folder(s) opened and"
+msgstr "fichier(s) ouvert(s)"
+
+#: ../inc/AWPAntivirus.class.php:350
+msgid "file(s) scanned"
+msgstr "fichier(s) scanné(s)"
+
+#: ../inc/AWPAntivirus.class.php:351
+msgid "potentially dangerous line(s) of code."
+msgstr "ligne(s) de code potentiellement dangereuse(s)"
+
+#: ../inc/AWPAntivirus.class.php:354
+msgid "No virus found."
+msgstr "Aucun virus trouvé."
+
+#: ../inc/AWPAntivirus.class.php:359
+msgid ""
+"file(s) were submitted for deeper analysis (it will be checked within a few "
+"hours)."
+msgstr ""
+"fichier(s) ont été soumis à un examen approfondi (ils seront vérifiés d'ici "
+"quelques heures)"
+
+#: ../inc/AWPAntivirus.class.php:361
+msgid "infected file(s) found"
+msgstr "fichier(s) infecté(s) trouvé(s)"
+
+#: ../inc/AWPAntivirus.class.php:361
+msgid "to be deleted and"
+msgstr "à supprimer"
+
+#: ../inc/AWPAntivirus.class.php:361
+msgid "to be corrected"
+msgstr "à corriger"
+
+#: ../inc/AWPAntivirus.class.php:364
+msgid "You don't have a valid licence key, files won't be deleted."
+msgstr ""
+"Vous ne disposez pas d'une clé d'API valide, les fichiers ne seront pas "
+"supprimés."
+
+#: ../inc/AWPAntivirus.class.php:364
+msgid "so it is done automatically."
+msgstr "afin que cela se fasse automatiquement."
+
+#: ../inc/AWPAntivirus.class.php:365
+msgid "You have a valid licence key, files will be corrected automatically."
+msgstr ""
+"Vous disposez d'une clé d'api valide, les fichiers seront corrigés "
+"automatiquement."
